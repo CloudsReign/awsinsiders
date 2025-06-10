@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on AWS Insiders</title>
+    <link>https://awsinsiders.com/tags/</link>
+    <description>Recent content in Tags on AWS Insiders</description>
+    <generator>Hugo -- 0.147.6</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://awsinsiders.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Affiliate</title>
+      <link>https://awsinsiders.com/tags/affiliate/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/tags/affiliate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://awsinsiders.com/tags/intro/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/tags/intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Site Update</title>
+      <link>https://awsinsiders.com/tags/site-update/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/tags/site-update/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://awsinsiders.com/tags/tools/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/tags/tools/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

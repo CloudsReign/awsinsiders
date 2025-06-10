@@ -1,0 +1,8 @@
+
+baseURL = "https://awsinsiders.com/"
+languageCode = "en-us"
+title = "AWS Insiders"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams = { Title = "Welcome to AWS Insiders", Content = "Cloud tools, blog posts, and technical resources by Christian Lutes." }

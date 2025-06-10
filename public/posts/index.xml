@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on AWS Insiders</title>
+    <link>https://awsinsiders.com/posts/</link>
+    <description>Recent content in Posts on AWS Insiders</description>
+    <generator>Hugo -- 0.147.6</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://awsinsiders.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Tools I Actually Use as a Cloud Technical Account Manager</title>
+      <link>https://awsinsiders.com/posts/tools-i-use/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/posts/tools-i-use/</guid>
+      <description>&lt;p&gt;Working in the cloud every day, these are the tools I personally use and recommend.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-aws-certified-solutions-architect-official-study-guide&#34;&gt;1. &lt;a href=&#34;https://www.amazon.com/dp/111950421X?tag=awsinsiders-20&#34;&gt;AWS Certified Solutions Architect Official Study Guide&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Helped me pass my cert. Covers real-world scenarios and test-style questions.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-anker-usb-c-dock&#34;&gt;2. &lt;a href=&#34;https://www.amazon.com/dp/B08BCRQ1Y3?tag=awsinsiders-20&#34;&gt;Anker USB-C Dock&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I use this daily for dual monitors, network, and charging from a single cable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-blue-yeti-usb-microphone&#34;&gt;3. &lt;a href=&#34;https://www.amazon.com/dp/B00N1YPXW2?tag=awsinsiders-20&#34;&gt;Blue Yeti USB Microphone&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;For clear Zoom audio in support calls and recordings.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Affiliate Disclosure: As an Amazon Associate, I earn from qualifying purchases. I only recommend tools I personally use or believe in.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to AWS Insiders</title>
+      <link>https://awsinsiders.com/posts/welcome/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/posts/welcome/</guid>
+      <description>&lt;p&gt;Thanks for stopping by! AWS Insiders is a growing collection of tools, posts, and technical guides based on real-world experience in cloud, voice, and network engineering.&lt;/p&gt;
+&lt;p&gt;Here you’ll find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cloud automation tools&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hands-on AWS guides&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Observability and support tips&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behind-the-scenes insights from an active TAM&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New content is added regularly, so check back soon or follow me on &lt;a href=&#34;https://github.com/CloudsReign&#34;&gt;GitHub&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/christianlutes/&#34;&gt;LinkedIn&lt;/a&gt; for updates.&lt;/p&gt;
+&lt;p&gt;Let’s build something better in the cloud — together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What&#39;s New with Amazon CloudWatch in 2025</title>
+      <link>https://awsinsiders.com/posts/whats-new-with-amazon-cloudwatch-in-2025/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/posts/whats-new-with-amazon-cloudwatch-in-2025/</guid>
+      <description>&lt;p&gt;Explore new features in CloudWatch for observability and insights.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/aws/whats-new-amazon-cloudwatch-2025/&#34;&gt;Read the full article here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing Amazon S3 Express One Zone</title>
+      <link>https://awsinsiders.com/posts/introducing-amazon-s3-express-one-zone/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/posts/introducing-amazon-s3-express-one-zone/</guid>
+      <description>&lt;p&gt;A new high-performance storage class for latency-sensitive applications.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/aws/introducing-amazon-s3-express-one-zone/&#34;&gt;Read the full article here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New – Amazon Bedrock Agents Now Generally Available</title>
+      <link>https://awsinsiders.com/posts/new-amazon-bedrock-agents-now-generally-available/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://awsinsiders.com/posts/new-amazon-bedrock-agents-now-generally-available/</guid>
+      <description>&lt;p&gt;Build generative AI applications that can execute tasks using agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-bedrock-agents-now-generally-available/&#34;&gt;Read the full article here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
