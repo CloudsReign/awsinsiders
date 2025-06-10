@@ -19,12 +19,17 @@ jobs:
         hugo-version: '0.125.0'
 
     - name: Update last-run timestamp
+      run: echo "Last run: $(date -u)" > last-run.txt
+
+    - name: Commit timestamp
       run: |
-        echo "Last run: $(date -u)" > last-run.txt
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add last-run.txt
+        git commit -m "Update last-run timestamp" || echo "No changes to commit"
 
     - name: Build
       run: hugo --minify
-      working-directory: ./
 
     - name: Sync to S3
       uses: jakejarvis/s3-sync-action@master
