@@ -3,6 +3,8 @@ name: Deploy Hugo Site to S3
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC (1 AM Central)
 
 jobs:
   deploy:
@@ -15,6 +17,10 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.125.0'
+
+    - name: Update last-run timestamp
+      run: |
+        echo "Last run: $(date -u)" > last-run.txt
 
     - name: Build
       run: hugo --minify
