@@ -19,7 +19,8 @@ jobs:
           hugo-version: "0.125.0"
 
       - name: Update last-run timestamp
-        run: echo "Last run: $(date -u)" > last-run.txt
+        run: |
+          echo "Last run: $(date -u)" > last-run.txt
 
       - name: Build
         run: hugo --minify
@@ -42,4 +43,5 @@ jobs:
           AWS_REGION: us-east-1
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
 
