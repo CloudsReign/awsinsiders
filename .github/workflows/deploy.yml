@@ -21,14 +21,6 @@ jobs:
       - name: Update last-run timestamp
         run: echo "Last run: $(date -u)" > last-run.txt
 
-      - name: Commit timestamp
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add last-run.txt
-          git commit -m "Update last-run timestamp" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-
       - name: Build
         run: hugo --minify
 
