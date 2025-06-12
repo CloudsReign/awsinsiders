@@ -5,7 +5,9 @@ theme: "PaperMod"
 languageCode: "en-us"
 defaultContentLanguage: "en"
 enableInlineShortcodes: true
-paginate: 10
+
+pagination:
+  pagerSize: 10
 
 params:
   defaultTheme: dark
