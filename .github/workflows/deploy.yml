@@ -2,27 +2,22 @@ name: Deploy Hugo Site to S3
 
 on:
   push:
-    branches: [main]
-  schedule:
-    - cron: "0 6 * * *"  # Daily at 6 AM UTC
+    branches: [ main ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        # Remove submodules if you don't want to manage the theme as a submodule
-        # with:
-        #   submodules: true
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Setup Hugo
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.125.0"
+          hugo-version: 'latest'
 
-      - name: Build
+      - name: Build Hugo site
         run: hugo --minify
 
       - name: Sync to S3
@@ -36,7 +31,7 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
           SOURCE_DIR: ./public
 
-      - name: Invalidate CloudFront
+      - name: Invalidate CloudFront cache
         uses: chetan/invalidate-cloudfront-action@v1
         env:
           DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
