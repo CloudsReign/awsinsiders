@@ -20,6 +20,9 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
+      - name: List public folder contents
+        run: ls -R ./public
+
       - name: Sync to S3
         uses: jakejarvis/s3-sync-action@master
         with:
