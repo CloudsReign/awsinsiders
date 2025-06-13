@@ -14,7 +14,7 @@ params:
   disableThemeToggle: false
 
   assets:
-    customCSS: ["css/custom.css"]
+   # customCSS: ["css/custom.css"]
 
   homeInfoParams:
     Title: "Welcome to AWS Insiders"
