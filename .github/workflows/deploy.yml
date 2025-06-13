@@ -19,6 +19,12 @@ jobs:
 
       - name: Build Hugo site
         run: hugo --minify
+        
+      - name: Show files in public
+        run: |
+          ls -la ./public
+          head -20 ./public/index.html
+        
 
       - name: List public folder contents
         run: ls -R ./public
