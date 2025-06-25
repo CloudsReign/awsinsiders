@@ -2,7 +2,7 @@ name: Deploy Hugo Site to S3
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   deploy:
@@ -19,15 +19,12 @@ jobs:
 
       - name: Build Hugo site
         run: hugo --minify
-        
+
       - name: Show files in public
         run: |
           ls -la ./public
           head -20 ./public/index.html
-        
-
-      - name: List public folder contents
-        run: ls -R ./public
+          ls -la ./public/assets/css
 
       - name: Sync to S3
         uses: jakejarvis/s3-sync-action@master
@@ -45,6 +42,6 @@ jobs:
         env:
           DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
           PATHS: "/*"
-          AWS_REGION: us-east-1
+          AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

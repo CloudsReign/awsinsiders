@@ -43,3 +43,9 @@ menu:
       name: Tools & Downloads
       url: /tools/
       weight: 30
+
+ignoreFiles:
+  - "\\~"
+  - "\\.bak$"
+  - "\\.tmp$"
+  - "\\.swp$"
