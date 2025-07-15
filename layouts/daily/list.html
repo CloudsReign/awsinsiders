@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>Daily Cloud Tips & Jokes</h1>
+  <ul>
+    {{ range .Pages }}
+      <li class="my-2">
+        <a class="text-blue-600 hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <small class="ml-2 text-sm text-gray-500">#{{ index .Params.tags 0 }}</small>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

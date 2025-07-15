@@ -1,0 +1,11 @@
+INVITE sip:1001@demo.com SIP/2.0
+Call-ID: abc-123
+
+180 Ringing
+Call-ID: abc-123
+
+200 OK
+Call-ID: abc-123
+
+BYE sip:1001@demo.com SIP/2.0
+Call-ID: abc-123

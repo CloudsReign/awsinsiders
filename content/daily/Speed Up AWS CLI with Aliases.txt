@@ -1,0 +1,13 @@
+---
+title: "Speed Up AWS CLI with Aliases"
+date: 2025-06-25
+tags: ["tip"]
+type: "daily"
+---
+
+Add helpful aliases to your AWS CLI config file to cut down on typing.  
+Example:
+```ini
+[aliases]
+ls = s3 ls
+cf = cloudformation

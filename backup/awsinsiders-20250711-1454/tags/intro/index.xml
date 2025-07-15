@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Intro on AWS Insiders</title><link>https://awsinsiders.com/tags/intro/</link><description>Recent content in Intro on AWS Insiders</description><generator>Hugo -- 0.147.6</generator><language>en-us</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://awsinsiders.com/tags/intro/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to AWS Insiders</title><link>https://awsinsiders.com/posts/welcome/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://awsinsiders.com/posts/welcome/</guid><description>&lt;p>Thanks for stopping by! AWS Insiders is a growing collection of tools, posts, and technical guides based on real-world experience in cloud, voice, and network engineering.&lt;/p>
+&lt;p>Here you’ll find:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Cloud automation tools&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Hands-on AWS guides&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Observability and support tips&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Behind-the-scenes insights from an active TAM&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>New content is added regularly, so check back soon or follow me on &lt;a href="https://github.com/CloudsReign">GitHub&lt;/a> and &lt;a href="https://www.linkedin.com/in/christianlutes/">LinkedIn&lt;/a> for updates.&lt;/p>
+&lt;p>Let’s build something better in the cloud — together.&lt;/p></description></item></channel></rss>

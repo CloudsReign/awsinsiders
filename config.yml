@@ -1,0 +1,68 @@
+baseURL: "https://awsinsiders.com/"
+title: "AWS Insiders"
+theme: "PaperMod"
+
+languageCode: "en-us"
+defaultContentLanguage: "en"
+enableInlineShortcodes: true
+
+pagination:
+  pagerSize: 10
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  homeInfoParams:
+    Title: "Welcome to AWS Insiders"
+    Content: >
+      A curated space for cloud engineers, TAMs, and DevOps pros — powered by real-world AWS experience.
+
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/CloudsReign"
+      title: "GitHub"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/chrislutes"
+      title: "LinkedIn"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+
+    - identifier: daily
+      name: Daily Tips
+      url: /daily/
+      weight: 15
+
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+
+    - identifier: tools
+      name: Tools & Downloads
+      url: /tools/
+      weight: 30
+
+ignoreFiles:
+  - "\\~"
+  - "\\.bak$"
+  - "\\.tmp$"
+  - "\\.swp$"
+
+taxonomies:
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+  section:
+    - HTML
+  taxonomy:
+    - HTML
+  term:
+    - HTML
