@@ -14,17 +14,21 @@ params:
   disableThemeToggle: false
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   assets:
    # customCSS: ["css/custom.css"]
 
 >>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
+=======
+>>>>>>> 6181bbd (Fix: local config and merge cleanup)
   homeInfoParams:
     Title: "Welcome to AWS Insiders"
     Content: >
       A curated space for cloud engineers, TAMs, and DevOps pros — powered by real-world AWS experience.
 
   socialIcons:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - name: "Github"
       url: "https://github.com/CloudsReign"
@@ -38,6 +42,14 @@ params:
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/christianlutes"
 >>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
+=======
+    - name: "Github"
+      url: "https://github.com/CloudsReign"
+      title: "GitHub"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/chrislutes"
+      title: "LinkedIn"
+>>>>>>> 6181bbd (Fix: local config and merge cleanup)
 
 menu:
   main:
@@ -47,13 +59,19 @@ menu:
       weight: 10
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6181bbd (Fix: local config and merge cleanup)
     - identifier: daily
       name: Daily Tips
       url: /daily/
       weight: 15
 
+<<<<<<< HEAD
 =======
 >>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
+=======
+>>>>>>> 6181bbd (Fix: local config and merge cleanup)
     - identifier: posts
       name: Posts
       url: /posts/
@@ -70,6 +88,9 @@ ignoreFiles:
   - "\\.tmp$"
   - "\\.swp$"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6181bbd (Fix: local config and merge cleanup)
 
 taxonomies:
   tag: tags
@@ -83,5 +104,8 @@ outputs:
     - HTML
   term:
     - HTML
+<<<<<<< HEAD
 =======
 >>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
+=======
+>>>>>>> 6181bbd (Fix: local config and merge cleanup)
