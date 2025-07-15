@@ -12,21 +12,32 @@ pagination:
 params:
   defaultTheme: dark
   disableThemeToggle: false
-  # assets:
-  #   customCSS: ["css/custom.css"]
 
+<<<<<<< HEAD
+=======
+  assets:
+   # customCSS: ["css/custom.css"]
+
+>>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
   homeInfoParams:
     Title: "Welcome to AWS Insiders"
     Content: >
       A curated space for cloud engineers, TAMs, and DevOps pros — powered by real-world AWS experience.
 
   socialIcons:
-    - name: "GitHub"
+<<<<<<< HEAD
+    - name: "Github"
       url: "https://github.com/CloudsReign"
       title: "GitHub"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/chrislutes"
+      title: "LinkedIn"
+=======
+    - name: "GitHub"
+      url: "https://github.com/CloudsReign"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/christianlutes"
-      title: "LinkedIn"
+>>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
 
 menu:
   main:
@@ -35,11 +46,14 @@ menu:
       url: /about/
       weight: 10
 
+<<<<<<< HEAD
     - identifier: daily
       name: Daily Tips
       url: /daily/
       weight: 15
 
+=======
+>>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
     - identifier: posts
       name: Posts
       url: /posts/
@@ -55,6 +69,7 @@ ignoreFiles:
   - "\\.bak$"
   - "\\.tmp$"
   - "\\.swp$"
+<<<<<<< HEAD
 
 taxonomies:
   tag: tags
@@ -68,3 +83,5 @@ outputs:
     - HTML
   term:
     - HTML
+=======
+>>>>>>> d54290fcf6964ac3783679ea99ff6567835ad3e7
